@@ -2,4 +2,12 @@
 
 using namespace ShapeLibrary;
 
+Shape::Shape()
+{
 
+}
+
+Shape::~Shape()
+{
+
+}
