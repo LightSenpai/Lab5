@@ -3,10 +3,12 @@
 
 namespace ShapeLibrary
 {
-	class ClosedPolyline
+	class ClosedPolyline : public Shape
 	{
-	
-
-
+	public:
+		ClosedPolyline(IWindowAPI & _windowAPI);
+		~ClosedPolyline();
+		virtual void draw() const;
+		virtual void add(Point _point);
 	};
 }
